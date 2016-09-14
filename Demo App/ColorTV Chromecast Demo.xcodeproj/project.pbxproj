@@ -1,0 +1,704 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		174BBFC41D4F7A7D00E779FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 174BBFC31D4F7A7D00E779FD /* main.m */; };
+		174BBFC71D4F7A7D00E779FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 174BBFC61D4F7A7D00E779FD /* AppDelegate.m */; };
+		174BBFCA1D4F7A7D00E779FD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 174BBFC91D4F7A7D00E779FD /* ViewController.m */; };
+		174BBFCD1D4F7A7D00E779FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 174BBFCB1D4F7A7D00E779FD /* Main.storyboard */; };
+		174BBFCF1D4F7A7D00E779FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 174BBFCE1D4F7A7D00E779FD /* Assets.xcassets */; };
+		174BBFD21D4F7A7D00E779FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 174BBFD01D4F7A7D00E779FD /* LaunchScreen.storyboard */; };
+		174BBFDD1D4F7A7E00E779FD /* ColorTV_Chromecast_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 174BBFDC1D4F7A7E00E779FD /* ColorTV_Chromecast_DemoTests.m */; };
+		174BBFE81D4F7A7E00E779FD /* ColorTV_Chromecast_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 174BBFE71D4F7A7E00E779FD /* ColorTV_Chromecast_DemoUITests.m */; };
+		174BBFFF1D50EFEF00E779FD /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 174BBFFE1D50EFEF00E779FD /* libc++.tbd */; };
+		175E6E911D89A0AE00966D6C /* COLORCastFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 175E6E901D89A0AE00966D6C /* COLORCastFramework.framework */; };
+		175E6E921D89A0AE00966D6C /* COLORCastFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 175E6E901D89A0AE00966D6C /* COLORCastFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		175E6E941D89A3E000966D6C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 175E6E931D89A3E000966D6C /* QuartzCore.framework */; };
+		175E6E961D89A3EA00966D6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 175E6E951D89A3EA00966D6C /* Foundation.framework */; };
+		175E6E981D89A3F900966D6C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 175E6E971D89A3F900966D6C /* UIKit.framework */; };
+		175E6E9A1D89A40100966D6C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 175E6E991D89A40100966D6C /* CoreGraphics.framework */; };
+		175E6E9C1D89A42000966D6C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 175E6E9B1D89A42000966D6C /* SystemConfiguration.framework */; };
+		175E6E9E1D89A42800966D6C /* MediaAccessibility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 175E6E9D1D89A42800966D6C /* MediaAccessibility.framework */; };
+		175E6EA01D89A43200966D6C /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 175E6E9F1D89A43200966D6C /* MediaPlayer.framework */; };
+		175E6EA21D89A43B00966D6C /* MediaToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 175E6EA11D89A43B00966D6C /* MediaToolbox.framework */; };
+		175E6EA41D89A44900966D6C /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 175E6EA31D89A44900966D6C /* CoreText.framework */; };
+		175E6EA61D89A45100966D6C /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 175E6EA51D89A45100966D6C /* CoreBluetooth.framework */; };
+		175E6EA81D89A45E00966D6C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 175E6EA71D89A45E00966D6C /* AVFoundation.framework */; };
+		175E6EAA1D89A46500966D6C /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 175E6EA91D89A46500966D6C /* Accelerate.framework */; };
+		175E6EAC1D89A47000966D6C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 175E6EAB1D89A47000966D6C /* AudioToolbox.framework */; };
+		BF6CFAC8F784CD7356868201 /* libPods-ColorTV Chromecast Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 08D436045FABDBEDC40E7346 /* libPods-ColorTV Chromecast Demo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		174BBFD91D4F7A7E00E779FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 174BBFB71D4F7A7D00E779FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 174BBFBE1D4F7A7D00E779FD;
+			remoteInfo = "ColorTV Chromecast Demo";
+		};
+		174BBFE41D4F7A7E00E779FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 174BBFB71D4F7A7D00E779FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 174BBFBE1D4F7A7D00E779FD;
+			remoteInfo = "ColorTV Chromecast Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1720C3441D5A343900DC586D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				175E6E921D89A0AE00966D6C /* COLORCastFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08D436045FABDBEDC40E7346 /* libPods-ColorTV Chromecast Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ColorTV Chromecast Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		174BBFBF1D4F7A7D00E779FD /* ColorTV Chromecast Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ColorTV Chromecast Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		174BBFC31D4F7A7D00E779FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		174BBFC51D4F7A7D00E779FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		174BBFC61D4F7A7D00E779FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		174BBFC81D4F7A7D00E779FD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		174BBFC91D4F7A7D00E779FD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		174BBFCC1D4F7A7D00E779FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		174BBFCE1D4F7A7D00E779FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		174BBFD11D4F7A7D00E779FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		174BBFD31D4F7A7D00E779FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		174BBFD81D4F7A7E00E779FD /* ColorTV Chromecast DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ColorTV Chromecast DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		174BBFDC1D4F7A7E00E779FD /* ColorTV_Chromecast_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorTV_Chromecast_DemoTests.m; sourceTree = "<group>"; };
+		174BBFDE1D4F7A7E00E779FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		174BBFE31D4F7A7E00E779FD /* ColorTV Chromecast DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ColorTV Chromecast DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		174BBFE71D4F7A7E00E779FD /* ColorTV_Chromecast_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorTV_Chromecast_DemoUITests.m; sourceTree = "<group>"; };
+		174BBFE91D4F7A7E00E779FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		174BBFFE1D50EFEF00E779FD /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		175E6E901D89A0AE00966D6C /* COLORCastFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = COLORCastFramework.framework; sourceTree = "<group>"; };
+		175E6E931D89A3E000966D6C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		175E6E951D89A3EA00966D6C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		175E6E971D89A3F900966D6C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		175E6E991D89A40100966D6C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		175E6E9B1D89A42000966D6C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		175E6E9D1D89A42800966D6C /* MediaAccessibility.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaAccessibility.framework; path = System/Library/Frameworks/MediaAccessibility.framework; sourceTree = SDKROOT; };
+		175E6E9F1D89A43200966D6C /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		175E6EA11D89A43B00966D6C /* MediaToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaToolbox.framework; path = System/Library/Frameworks/MediaToolbox.framework; sourceTree = SDKROOT; };
+		175E6EA31D89A44900966D6C /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		175E6EA51D89A45100966D6C /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		175E6EA71D89A45E00966D6C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		175E6EA91D89A46500966D6C /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		175E6EAB1D89A47000966D6C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		1B0EA16B24E6440ECFCA276A /* Pods-ColorTV Chromecast Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorTV Chromecast Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ColorTV Chromecast Demo/Pods-ColorTV Chromecast Demo.release.xcconfig"; sourceTree = "<group>"; };
+		271D340535316ED7A1F98BFE /* Pods-ColorTV Chromecast Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorTV Chromecast Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ColorTV Chromecast Demo/Pods-ColorTV Chromecast Demo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		174BBFBC1D4F7A7D00E779FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				175E6EAC1D89A47000966D6C /* AudioToolbox.framework in Frameworks */,
+				175E6EAA1D89A46500966D6C /* Accelerate.framework in Frameworks */,
+				175E6EA81D89A45E00966D6C /* AVFoundation.framework in Frameworks */,
+				175E6EA61D89A45100966D6C /* CoreBluetooth.framework in Frameworks */,
+				175E6EA41D89A44900966D6C /* CoreText.framework in Frameworks */,
+				175E6EA21D89A43B00966D6C /* MediaToolbox.framework in Frameworks */,
+				175E6EA01D89A43200966D6C /* MediaPlayer.framework in Frameworks */,
+				175E6E9E1D89A42800966D6C /* MediaAccessibility.framework in Frameworks */,
+				175E6E9C1D89A42000966D6C /* SystemConfiguration.framework in Frameworks */,
+				175E6E9A1D89A40100966D6C /* CoreGraphics.framework in Frameworks */,
+				175E6E981D89A3F900966D6C /* UIKit.framework in Frameworks */,
+				175E6E961D89A3EA00966D6C /* Foundation.framework in Frameworks */,
+				175E6E941D89A3E000966D6C /* QuartzCore.framework in Frameworks */,
+				175E6E911D89A0AE00966D6C /* COLORCastFramework.framework in Frameworks */,
+				174BBFFF1D50EFEF00E779FD /* libc++.tbd in Frameworks */,
+				BF6CFAC8F784CD7356868201 /* libPods-ColorTV Chromecast Demo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		174BBFD51D4F7A7E00E779FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		174BBFE01D4F7A7E00E779FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		174BBFB61D4F7A7D00E779FD = {
+			isa = PBXGroup;
+			children = (
+				175E6E901D89A0AE00966D6C /* COLORCastFramework.framework */,
+				174BBFFE1D50EFEF00E779FD /* libc++.tbd */,
+				174BBFC11D4F7A7D00E779FD /* ColorTV Chromecast Demo */,
+				174BBFDB1D4F7A7E00E779FD /* ColorTV Chromecast DemoTests */,
+				174BBFE61D4F7A7E00E779FD /* ColorTV Chromecast DemoUITests */,
+				174BBFC01D4F7A7D00E779FD /* Products */,
+				A4061C556C49A4D1C0E2042B /* Pods */,
+				C63843C463C07E9411D6C161 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		174BBFC01D4F7A7D00E779FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				174BBFBF1D4F7A7D00E779FD /* ColorTV Chromecast Demo.app */,
+				174BBFD81D4F7A7E00E779FD /* ColorTV Chromecast DemoTests.xctest */,
+				174BBFE31D4F7A7E00E779FD /* ColorTV Chromecast DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		174BBFC11D4F7A7D00E779FD /* ColorTV Chromecast Demo */ = {
+			isa = PBXGroup;
+			children = (
+				174BBFC51D4F7A7D00E779FD /* AppDelegate.h */,
+				174BBFC61D4F7A7D00E779FD /* AppDelegate.m */,
+				174BBFC81D4F7A7D00E779FD /* ViewController.h */,
+				174BBFC91D4F7A7D00E779FD /* ViewController.m */,
+				174BBFCB1D4F7A7D00E779FD /* Main.storyboard */,
+				174BBFCE1D4F7A7D00E779FD /* Assets.xcassets */,
+				174BBFD01D4F7A7D00E779FD /* LaunchScreen.storyboard */,
+				174BBFD31D4F7A7D00E779FD /* Info.plist */,
+				174BBFC21D4F7A7D00E779FD /* Supporting Files */,
+			);
+			path = "ColorTV Chromecast Demo";
+			sourceTree = "<group>";
+		};
+		174BBFC21D4F7A7D00E779FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				174BBFC31D4F7A7D00E779FD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		174BBFDB1D4F7A7E00E779FD /* ColorTV Chromecast DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				174BBFDC1D4F7A7E00E779FD /* ColorTV_Chromecast_DemoTests.m */,
+				174BBFDE1D4F7A7E00E779FD /* Info.plist */,
+			);
+			path = "ColorTV Chromecast DemoTests";
+			sourceTree = "<group>";
+		};
+		174BBFE61D4F7A7E00E779FD /* ColorTV Chromecast DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				174BBFE71D4F7A7E00E779FD /* ColorTV_Chromecast_DemoUITests.m */,
+				174BBFE91D4F7A7E00E779FD /* Info.plist */,
+			);
+			path = "ColorTV Chromecast DemoUITests";
+			sourceTree = "<group>";
+		};
+		A4061C556C49A4D1C0E2042B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				271D340535316ED7A1F98BFE /* Pods-ColorTV Chromecast Demo.debug.xcconfig */,
+				1B0EA16B24E6440ECFCA276A /* Pods-ColorTV Chromecast Demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C63843C463C07E9411D6C161 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				175E6EAB1D89A47000966D6C /* AudioToolbox.framework */,
+				175E6EA91D89A46500966D6C /* Accelerate.framework */,
+				175E6EA71D89A45E00966D6C /* AVFoundation.framework */,
+				175E6EA51D89A45100966D6C /* CoreBluetooth.framework */,
+				175E6EA31D89A44900966D6C /* CoreText.framework */,
+				175E6EA11D89A43B00966D6C /* MediaToolbox.framework */,
+				175E6E9F1D89A43200966D6C /* MediaPlayer.framework */,
+				175E6E9D1D89A42800966D6C /* MediaAccessibility.framework */,
+				175E6E9B1D89A42000966D6C /* SystemConfiguration.framework */,
+				175E6E991D89A40100966D6C /* CoreGraphics.framework */,
+				175E6E971D89A3F900966D6C /* UIKit.framework */,
+				175E6E951D89A3EA00966D6C /* Foundation.framework */,
+				175E6E931D89A3E000966D6C /* QuartzCore.framework */,
+				08D436045FABDBEDC40E7346 /* libPods-ColorTV Chromecast Demo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		174BBFBE1D4F7A7D00E779FD /* ColorTV Chromecast Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 174BBFEC1D4F7A7E00E779FD /* Build configuration list for PBXNativeTarget "ColorTV Chromecast Demo" */;
+			buildPhases = (
+				DAA1C61EB440DC8C9E9631FA /* [CP] Check Pods Manifest.lock */,
+				174BBFBB1D4F7A7D00E779FD /* Sources */,
+				174BBFBC1D4F7A7D00E779FD /* Frameworks */,
+				174BBFBD1D4F7A7D00E779FD /* Resources */,
+				1720C3441D5A343900DC586D /* Embed Frameworks */,
+				CF5C9AE734D815D42F4E8D13 /* [CP] Embed Pods Frameworks */,
+				8AD9D78CC1AA317B2205737C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ColorTV Chromecast Demo";
+			productName = "ColorTV Chromecast Demo";
+			productReference = 174BBFBF1D4F7A7D00E779FD /* ColorTV Chromecast Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		174BBFD71D4F7A7E00E779FD /* ColorTV Chromecast DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 174BBFEF1D4F7A7E00E779FD /* Build configuration list for PBXNativeTarget "ColorTV Chromecast DemoTests" */;
+			buildPhases = (
+				174BBFD41D4F7A7E00E779FD /* Sources */,
+				174BBFD51D4F7A7E00E779FD /* Frameworks */,
+				174BBFD61D4F7A7E00E779FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				174BBFDA1D4F7A7E00E779FD /* PBXTargetDependency */,
+			);
+			name = "ColorTV Chromecast DemoTests";
+			productName = "ColorTV Chromecast DemoTests";
+			productReference = 174BBFD81D4F7A7E00E779FD /* ColorTV Chromecast DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		174BBFE21D4F7A7E00E779FD /* ColorTV Chromecast DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 174BBFF21D4F7A7E00E779FD /* Build configuration list for PBXNativeTarget "ColorTV Chromecast DemoUITests" */;
+			buildPhases = (
+				174BBFDF1D4F7A7E00E779FD /* Sources */,
+				174BBFE01D4F7A7E00E779FD /* Frameworks */,
+				174BBFE11D4F7A7E00E779FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				174BBFE51D4F7A7E00E779FD /* PBXTargetDependency */,
+			);
+			name = "ColorTV Chromecast DemoUITests";
+			productName = "ColorTV Chromecast DemoUITests";
+			productReference = 174BBFE31D4F7A7E00E779FD /* ColorTV Chromecast DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		174BBFB71D4F7A7D00E779FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Color Media Group inc.";
+				TargetAttributes = {
+					174BBFBE1D4F7A7D00E779FD = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = RW6DR85M92;
+					};
+					174BBFD71D4F7A7E00E779FD = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 174BBFBE1D4F7A7D00E779FD;
+					};
+					174BBFE21D4F7A7E00E779FD = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 174BBFBE1D4F7A7D00E779FD;
+					};
+				};
+			};
+			buildConfigurationList = 174BBFBA1D4F7A7D00E779FD /* Build configuration list for PBXProject "ColorTV Chromecast Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 174BBFB61D4F7A7D00E779FD;
+			productRefGroup = 174BBFC01D4F7A7D00E779FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				174BBFBE1D4F7A7D00E779FD /* ColorTV Chromecast Demo */,
+				174BBFD71D4F7A7E00E779FD /* ColorTV Chromecast DemoTests */,
+				174BBFE21D4F7A7E00E779FD /* ColorTV Chromecast DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		174BBFBD1D4F7A7D00E779FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				174BBFD21D4F7A7D00E779FD /* LaunchScreen.storyboard in Resources */,
+				174BBFCF1D4F7A7D00E779FD /* Assets.xcassets in Resources */,
+				174BBFCD1D4F7A7D00E779FD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		174BBFD61D4F7A7E00E779FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		174BBFE11D4F7A7E00E779FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8AD9D78CC1AA317B2205737C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ColorTV Chromecast Demo/Pods-ColorTV Chromecast Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF5C9AE734D815D42F4E8D13 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ColorTV Chromecast Demo/Pods-ColorTV Chromecast Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAA1C61EB440DC8C9E9631FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		174BBFBB1D4F7A7D00E779FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				174BBFCA1D4F7A7D00E779FD /* ViewController.m in Sources */,
+				174BBFC71D4F7A7D00E779FD /* AppDelegate.m in Sources */,
+				174BBFC41D4F7A7D00E779FD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		174BBFD41D4F7A7E00E779FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				174BBFDD1D4F7A7E00E779FD /* ColorTV_Chromecast_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		174BBFDF1D4F7A7E00E779FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				174BBFE81D4F7A7E00E779FD /* ColorTV_Chromecast_DemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		174BBFDA1D4F7A7E00E779FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 174BBFBE1D4F7A7D00E779FD /* ColorTV Chromecast Demo */;
+			targetProxy = 174BBFD91D4F7A7E00E779FD /* PBXContainerItemProxy */;
+		};
+		174BBFE51D4F7A7E00E779FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 174BBFBE1D4F7A7D00E779FD /* ColorTV Chromecast Demo */;
+			targetProxy = 174BBFE41D4F7A7E00E779FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		174BBFCB1D4F7A7D00E779FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				174BBFCC1D4F7A7D00E779FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		174BBFD01D4F7A7D00E779FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				174BBFD11D4F7A7D00E779FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		174BBFEA1D4F7A7E00E779FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		174BBFEB1D4F7A7E00E779FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		174BBFED1D4F7A7E00E779FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 271D340535316ED7A1F98BFE /* Pods-ColorTV Chromecast Demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = RW6DR85M92;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "ColorTV Chromecast Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.colortv.ColorTV-Chromecast-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		174BBFEE1D4F7A7E00E779FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B0EA16B24E6440ECFCA276A /* Pods-ColorTV Chromecast Demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = RW6DR85M92;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "ColorTV Chromecast Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.colortv.ColorTV-Chromecast-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		174BBFF01D4F7A7E00E779FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ColorTV Chromecast DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.colortv.ColorTV-Chromecast-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColorTV Chromecast Demo.app/ColorTV Chromecast Demo";
+			};
+			name = Debug;
+		};
+		174BBFF11D4F7A7E00E779FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ColorTV Chromecast DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.colortv.ColorTV-Chromecast-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColorTV Chromecast Demo.app/ColorTV Chromecast Demo";
+			};
+			name = Release;
+		};
+		174BBFF31D4F7A7E00E779FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "ColorTV Chromecast DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.colortv.ColorTV-Chromecast-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "ColorTV Chromecast Demo";
+			};
+			name = Debug;
+		};
+		174BBFF41D4F7A7E00E779FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "ColorTV Chromecast DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.colortv.ColorTV-Chromecast-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "ColorTV Chromecast Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		174BBFBA1D4F7A7D00E779FD /* Build configuration list for PBXProject "ColorTV Chromecast Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				174BBFEA1D4F7A7E00E779FD /* Debug */,
+				174BBFEB1D4F7A7E00E779FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		174BBFEC1D4F7A7E00E779FD /* Build configuration list for PBXNativeTarget "ColorTV Chromecast Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				174BBFED1D4F7A7E00E779FD /* Debug */,
+				174BBFEE1D4F7A7E00E779FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		174BBFEF1D4F7A7E00E779FD /* Build configuration list for PBXNativeTarget "ColorTV Chromecast DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				174BBFF01D4F7A7E00E779FD /* Debug */,
+				174BBFF11D4F7A7E00E779FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		174BBFF21D4F7A7E00E779FD /* Build configuration list for PBXNativeTarget "ColorTV Chromecast DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				174BBFF31D4F7A7E00E779FD /* Debug */,
+				174BBFF41D4F7A7E00E779FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 174BBFB71D4F7A7D00E779FD /* Project object */;
+}
