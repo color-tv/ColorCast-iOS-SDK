@@ -1,0 +1,6 @@
+framework module COLORCastFramework {
+  umbrella header "COLORCastFramework.h"
+
+  export *
+  module * { export * }
+}
