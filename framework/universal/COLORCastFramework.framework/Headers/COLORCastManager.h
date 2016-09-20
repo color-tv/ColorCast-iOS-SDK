@@ -24,7 +24,7 @@
 
 @interface COLORCastManager : NSObject
 
-@property (nonatomic, strong, readonly) COLORCastChannel * _Nonnull adChannel;
+@property (atomic, strong, readonly) COLORCastChannel * _Nonnull adChannel;
 @property (nonatomic, weak) id<COLORCastManagerDelegate> _Nullable delegate;
 
 +(instancetype _Nullable)sharedManager;
