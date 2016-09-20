@@ -46,6 +46,17 @@ Once complete, you will see the COLORAdFramework in both the **Embedded Binaries
 
 ---
 
+##Setting app permission
+
+Sometimes QR code will be shown. It will allow your customers to use special offers in future but firslty it needs to be saved. The most convenient way is to use photo library. This is why we can ask for permission to save an item into photo library. Unless you do so in your application please remember to add following entries into Info.plist file. Otherwise your app crashes whenever such permission is requested.
+
+```XML
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>We need to have access to your library in order to save QR codes or other promo coupons.</string>
+```
+
+---
+
 ##Initializing SDK
 
 Open AppDelegate.m and modify body of function `application:DidFinishLaunchingWithOptions:` with the App ID generated in the dashboard
