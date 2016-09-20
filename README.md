@@ -91,10 +91,6 @@ Finally implement some methods required.
 
 #pragma mark - GCKSessionManagerListener
 
--(void)sessionManager:(GCKSessionManager *)sessionManager willStartCastSession:(GCKCastSession *)session {
-    NSLog(@"::>> %@", NSStringFromSelector(_cmd));
-}
-
 -(void)sessionManager:(GCKSessionManager *)sessionManager didStartCastSession:(GCKCastSession *)session {
 
     [[sessionManager currentCastSession] addChannel:[[COLORCastManager sharedManager] adChannel]];
