@@ -38,10 +38,10 @@
     remoteBgLayer.anchorPoint = CGPointMake(0.5f, 0.5f);
     
     [self.remoteBgView.layer addSublayer:remoteBgLayer];
-    
+
     self.remoteBgView.layer.borderColor = [[UIColor redColor] CGColor];
     self.remoteBgView.layer.borderWidth = 10.0f;
-    
+
     GCKUICastButton *castButton = [[GCKUICastButton alloc] initWithFrame:CGRectMake(0, 0, 24, 24)];
     castButton.tintColor = [UIColor whiteColor];
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:castButton];
@@ -61,11 +61,15 @@
 
 -(void)viewDidAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    
+
     [[[GCKCastContext sharedInstance] sessionManager] addListener:self];
     
     if([[GCKCastContext sharedInstance] sessionManager].hasConnectedCastSession) {
+        if(!self.testAppChannel) {
+            self.testAppChannel = [[GCKCastChannel alloc] initWithNamespace:@"urn:x-cast:com.colortv.testapp"];
+        }
         [[[[GCKCastContext sharedInstance] sessionManager] currentCastSession] addChannel:self.testAppChannel];
+        [self enableVirtualRemoteButtons:YES];
     }
 }
 

@@ -529,7 +529,7 @@
 				INFOPLIST_FILE = "ColorTV Chromecast Demo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.colortv.ColorTV-Chromecast-Demo.ColorTV-Chromecast-Demo";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.colortv.ColorTV-Chromecast-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -547,7 +547,7 @@
 				INFOPLIST_FILE = "ColorTV Chromecast Demo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.colortv.ColorTV-Chromecast-Demo.ColorTV-Chromecast-Demo";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.colortv.ColorTV-Chromecast-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
